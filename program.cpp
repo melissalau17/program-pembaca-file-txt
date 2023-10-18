@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    FILE *file = fopen("data.txt", "r"); // ganti "data.txt" dengan nama file yang sesuai
-
+    FILE *file = fopen("data.txt", "r");
     if (file == NULL) {
         printf("File tidak dapat dibuka.\n");
         return 1;
